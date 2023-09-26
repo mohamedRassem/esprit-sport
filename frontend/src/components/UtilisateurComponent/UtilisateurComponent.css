@@ -1,0 +1,74 @@
+/* UtilisateurComponent.css */
+
+.utilisateur-component {
+  background-color: orange;
+  /* Ajoutez d'autres styles au besoin */
+}
+
+/* Styles pour les boutons */
+button {
+  background-color: orange;
+  color: white; /* Couleur du texte */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px; /* Ajoutez de la marge entre les boutons au besoin */
+}
+
+/* Style pour le bouton "Modifier" spécifique */
+button[type="submit"] {
+  background-color: orange;
+  color: white;
+}
+
+/* Styles pour les boutons des champs de saisie */
+input[type="button"], input[type="submit"], input[type="reset"] {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.Testimonials{
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+  
+  
+.left-t{
+  display: flex;
+  flex: 1 1;
+  gap: 2rem;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.left-t>:nth-child(1){
+  color: var(orange);
+  font-weight: bold;
+}
+
+.left-t>:nth-child(2),
+.left-t>:nth-child(3)
+{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.left-t>:nth-child(4)
+{
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 40px;
+}

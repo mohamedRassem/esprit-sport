@@ -1,0 +1,391 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+  
+
+  /* MonComposant.css */
+
+.left-h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #3498db;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.left-h img {
+  max-width: 2%;
+  max-height: 100%;
+  margin-right: 68px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .right-h {
+    flex: 1;
+    position: relative;
+    background-color: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Ajustez pour aligner l'image à droite */
+  }
+  
+  .right-h img {
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: contain;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 40px; /* Ajustez la marge à gauche pour déplacer l'image encore plus à droite */
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+.the-best-ad{
+    margin-top: 4rem;
+    background-color: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.the-best-ad>span{
+    z-index: 2;
+}
+
+.the-best-ad>div{
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+
+.header-menu {
+    list-style: none; /* Supprime les puces de liste */
+    display: flex; /* Affiche les éléments en ligne */
+    gap: 1rem; /* Espacement horizontal entre les éléments */
+    color: white; /* Couleur du texte */
+    background-color: gray; /* Couleur de fond */
+    padding: 10px 20px; /* Espace interne autour du texte */
+    border-radius: 5px; /* Coins arrondis */
+    align-items: center; /* Centre les éléments verticalement */
+  }
+  
+  .header-menu li {
+    font-size: 14px; /* Taille de la police */
+    cursor: pointer; /* Curseur de type main pour indiquer que c'est interactif */
+    padding: 5px 10px; /* Espace interne autour du texte du bouton */
+    border-radius: 3px; /* Coins arrondis pour les boutons */
+    background-color: orange; /* Couleur de fond des boutons */
+    transition: background-color 0.3s ease; /* Animation de transition en douceur */
+  }
+  
+  /* Style pour les liens lorsque survolés */
+  .header-menu li:hover {
+    background-color: orange; /* Couleur de fond des boutons au survol */
+    text-decoration: none; /* Supprime la soulignement du texte au survol */
+    color: white; /* Couleur du texte au survol */
+  }
+  
+
+
+
+
+
+
+
+.esprit{
+   
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        text-transform: uppercase;
+        font-size: 4.5rem;
+        font-weight: bold;
+        color: white;
+        text-overflow: inherit;
+    
+    
+    
+}
+
+
+
+
+
+
+.esprit {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    max-width: 350px; /* Largeur maximale souhaitée */
+  }
+  
+  .esprit pre {
+    margin: 0;
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid orange;
+    border-radius: 6px;
+    color: #fff;
+    background-color: orange;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+  }
+  
+  .esprit pre:nth-child(2) {
+    background-color: blanchedalmond;
+    border-color: blanchedalmond;
+  }
+  
+  .esprit pre:nth-child(3) {
+    background-color: orange;
+    border-color: orange;
+  }
+  
+  .esprit pre:nth-child(2) {
+    color: red;
+  }
+
+
+
+
+
+
+
+
+
+
+  .header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+
+
+.header-menu>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+
+
+}
+
+.hero-text>div:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+}
+
+.figures>div>span:nth-of-type(2){
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+
+
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+
+.hero-buttons>:nth-child(1){
+    color: white;
+    background-color: var(--orange);
+    width: 8rem;
+}
+
+.hero-buttons>:nth-child(2){
+    color: white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid var(--orange);
+}
+
+
+.btn{
+    background-color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 4px solid transparent;
+    transition: 300ms all;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.right-h>.btn{
+    position: absolute;
+    right: 3rem;top: 2rem;color: black;
+}
+
+.hero_image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+
+.hero_image_back{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+}
+
+.calories{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 32rem;
+    right: 28rem;
+}
+
+.calories > img{
+    width: 3rem;
+}
+
+.calories > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calories > div > :nth-child(1){
+    color: var(--gray);
+}
+
+.calories > div > :nth-child(2){
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

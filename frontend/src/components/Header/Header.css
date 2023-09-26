@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+.header-menu{
+    cursor: pointer;
+}
+
+.header-menu>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+    cursor: pointer;
+}
+
+/* Dans votre fichier CSS (par exemple, styles.css) */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacement entre le logo et le texte (ajustez selon vos besoins) */
+    font-size: 24px; /* Taille de la police pour le texte du logo */
+    font-weight: bold; /* Gras pour le texte du logo */
+    color: orange; /* Couleur du texte du logo */
+    color: orange; /* Couleur du texte du logo */
+  width: 400px;
+  background-color: orange;
+  }
+  
+  .logo img {
+    width: 20000px; /* Largeur du logo (ajustez selon vos besoins) */
+    height: 250px; /* Hauteur du logo (ajustez selon vos besoins) */
+    object-fit: contain; /* Ajustez l'image pour tenir dans les dimensions spécifiées */
+  }
+  
+  
+
+
+
+
+
+
+
+
+  
